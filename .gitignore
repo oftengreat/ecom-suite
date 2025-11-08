@@ -37,3 +37,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### ecom-suite ###
+git_key
+git_key.pub
+git_key2
+git_key2.pub

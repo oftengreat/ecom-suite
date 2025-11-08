@@ -47,6 +47,4 @@ public class Payment {
     public void markAsFailed() {
         this.status = "FAILED";
     }
-
-    // Getters/Setters omitted
 }

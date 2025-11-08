@@ -34,6 +34,4 @@ public class Customer {
         this.email = email;
         this.address = address;
     }
-
-    // Getters/Setters omitted for brevity
 }

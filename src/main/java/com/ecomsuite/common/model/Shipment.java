@@ -48,7 +48,5 @@ public class Shipment {
         this.status = "DELIVERED";
         this.deliveredDate = LocalDateTime.now();
     }
-
-    // Getters/Setters omitted
 }
 

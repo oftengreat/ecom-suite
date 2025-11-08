@@ -56,6 +56,4 @@ public class Order {
                     .mapToDouble(OrderItem::getSubtotal)
                     .sum();
     }
-
-    // Getters/Setters omitted
 }

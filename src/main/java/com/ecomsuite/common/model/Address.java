@@ -22,7 +22,5 @@ public class Address {
         this.postalCode = postalCode;
         this.country = country;
     }
-
-    // Getters/Setters omitted
 }
 
