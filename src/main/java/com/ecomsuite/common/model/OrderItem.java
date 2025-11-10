@@ -39,5 +39,8 @@ public class OrderItem {
         return quantity * unitPrice;
     }
 
+    public void setSubtotal(double v) {
+        
+    }
 }
 
