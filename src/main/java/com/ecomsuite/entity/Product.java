@@ -1,7 +1,8 @@
-package com.ecomsuite.common.model;
+package com.ecomsuite.entity;
 
 import jakarta.persistence.*;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor; // Optional: creates a default constructor
@@ -10,6 +11,7 @@ import lombok.NoArgsConstructor; // Optional: creates a default constructor
 @Getter 
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "products")
 public class Product {
 
@@ -23,20 +25,5 @@ public class Product {
     private Double price;
     private Integer stockQuantity;
 
-    public Product(String sku, String name, String description, Double price, Integer stockQuantity) {
-        this.sku = sku;
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.stockQuantity = stockQuantity;
-    }
-
-    public Double getPrice() {
-        return price;
-    }
-
-    public void setPrice(Double price) {
-        this.price = price;
-    }
 }
 

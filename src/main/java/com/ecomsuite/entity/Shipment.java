@@ -1,4 +1,4 @@
-package com.ecomsuite.common.model;
+package com.ecomsuite.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

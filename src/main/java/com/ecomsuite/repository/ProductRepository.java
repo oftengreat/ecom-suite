@@ -1,6 +1,6 @@
 package com.ecomsuite.repository;
 
-import com.ecomsuite.common.model.Product;
+import com.ecomsuite.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

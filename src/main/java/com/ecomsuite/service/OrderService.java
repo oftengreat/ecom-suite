@@ -1,7 +1,7 @@
 package com.ecomsuite.service;
 
 import com.ecomsuite.dto.*;
-import com.ecomsuite.common.model.*;
+import com.ecomsuite.entity.*;
 import com.ecomsuite.repository.*;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

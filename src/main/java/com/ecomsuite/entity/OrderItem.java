@@ -1,4 +1,4 @@
-package com.ecomsuite.common.model;
+package com.ecomsuite.entity;
 
 import jakarta.persistence.*;
 
@@ -24,23 +24,18 @@ public class OrderItem {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "product_id")
     private Product product;
-
-    private int quantity;
     private Double unitPrice;
+    private int quantity;
 
-    public OrderItem(Order order, Product product, int quantity, Double unitPrice) {
-        this.order = order;
-        this.product = product;
-        this.quantity = quantity;
-        this.unitPrice = unitPrice;
+    public OrderItem(Order order, Product product, int quantity, Double price) {
     }
 
+
     public Double getSubtotal() {
-        return quantity * unitPrice;
+        return quantity * getProduct().getPrice();
     }
 
     public void setSubtotal(double v) {
-        
     }
 }
 
